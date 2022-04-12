@@ -1,9 +1,9 @@
 <nav class="nav">
   <div class="nav__menu">
-    <a [routerLink]="['/']">Weather APP</a>
+    <a [routerLink]="['/']" class="brand">Weather APP</a> <!-- //TODO añadirle link a github y meterle un flex -->
   </div>
 </nav>    <!-- //TODO separar a componente independiente-->
-<div class="container">
+<div class="container mx-auto">
   <app-search></app-search>
   <app-weather></app-weather>
 </div>
