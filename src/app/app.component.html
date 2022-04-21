@@ -4,6 +4,7 @@
   </div>
 </nav>    <!-- //TODO separar a componente independiente-->
 <div class="container mx-auto">
-  <app-search></app-search>
-  <app-weather></app-weather>
+  <app-search (submittedSearch)="onSearch($event)"></app-search>
+  <app-weather *ngIf="weather$ | async as weather" [weather]="weather"></app-weather>
+  <!-- //TODO: https://www.youtube.com/watch?v=CR1hVl_7ddI Continuar por 1:15:29-->
 </div>

@@ -2,6 +2,8 @@
 
 * Tutorial: https://www.youtube.com/watch?v=CR1hVl_7ddI
 * Original boilerplate repo: https://github.com/bezael/weatherAPP.git`
+* Herramienta para pasar json a ts: http://json2ts.com/
+* API de tiempo: https://openweathermap.org/
 
 
 ## Development server
