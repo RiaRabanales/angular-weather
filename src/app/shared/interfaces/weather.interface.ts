@@ -8,8 +8,8 @@ export interface WeatherData {
 }
 
 export interface Coord {
-    lon: number;
-    lat: number;
+    longitude: number;
+    latitude: number;
 }
 
 interface Weather {

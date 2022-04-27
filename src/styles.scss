@@ -33,6 +33,12 @@ a {
   width: 50%;
 }
 
+@media (max-width: 900px) {
+  .container {
+    width: 92%;
+  }
+}
+
 /* Utility */
 
 .width-33 {
@@ -57,10 +63,4 @@ a {
 .py-auto {
   padding-top: auto;
   padding-bottom: auto;
-}
-
-@media (max-width: 900px) {
-  .container {
-    width: 95%;
-  }
 }
