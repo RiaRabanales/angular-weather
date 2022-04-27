@@ -1,10 +1,9 @@
 <nav class="nav">
   <div class="nav__menu">
-    <a [routerLink]="['/']" class="brand">Weather APP</a> <!-- //TODO añadirle link a github y meterle un flex -->
+    <a [routerLink]="['/']" class="brand">Weather APP</a> <!-- //TODO añadirle link a github y meterle un flex, quitar env.ts -->
   </div>
 </nav>    <!-- //TODO separar a componente independiente-->
 <div class="container mx-auto">
   <app-search (submittedSearch)="onSearch($event)"></app-search>
   <app-weather *ngIf="weather$ | async as weather" [weather]="weather"></app-weather>
-  <!-- //TODO: https://www.youtube.com/watch?v=CR1hVl_7ddI Continuar por 1:15:29-->
 </div>
